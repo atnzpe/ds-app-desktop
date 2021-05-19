@@ -13,6 +13,8 @@ public class Atividade04 {
         
         System.out.println("Primeira Linha");
         System.out.println("Segunda Linha");
+        
+        System.out.println("Terceira Linha"+"\n"+"Quarta Linha");
     }
     
 }
