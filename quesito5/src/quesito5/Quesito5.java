@@ -17,16 +17,24 @@ public class Quesito5 {
         Scanner input = new Scanner(System.in);
 
         int vBrancos, vNulos, vValidos;
-        float pBrancos, pNulos, pValidos;
 
-        System.out.println("Digite o Número de Votos Válidos: ");
+        System.out.println("Houveram quantos Votos Válidos? ");
         vValidos = input.nextInt();
-        System.out.println("Digite o Número de Votos Brancos: ");
+        System.out.println("Quantos Votos Brancos? ");
         vBrancos = input.nextInt();
-        System.out.println("Digite o Número de Votos Nulos: ");
+        System.out.println("Por fim, quantos votos Nulos? ");
         vNulos = input.nextInt();
 
+        int totalEleitores = vBrancos + vNulos + vValidos;
 
+        float pBrancos = (vBrancos * 100) / totalEleitores;
+        float pNulos = (vNulos * 100) / totalEleitores;
+        float pValidos = (vValidos * 100) / totalEleitores;
+
+        System.out.println("Total de Votos: " + totalEleitores);
+        System.out.println("Votos Válidos : " + vValidos + " representa " + pValidos + "%");
+        System.out.println("Votos Brancos : " + vBrancos + " representa " + pBrancos + "%");
+        System.out.println("Votos Nulos : " + vNulos + " representa " + pNulos + "%");
 
     }
 
