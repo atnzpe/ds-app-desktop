@@ -16,14 +16,17 @@ public class Quesito5 {
 
         Scanner input = new Scanner(System.in);
 
-        int totalEleitores, vBrancos, vNulos, vValidos;
+        int vBrancos, vNulos, vValidos;
         float pBrancos, pNulos, pValidos;
 
         System.out.println("Digite o Número de Votos Válidos: ");
         vValidos = input.nextInt();
-
         System.out.println("Digite o Número de Votos Brancos: ");
         vBrancos = input.nextInt();
+        System.out.println("Digite o Número de Votos Nulos: ");
+        vNulos = input.nextInt();
+
+
 
     }
 
