@@ -1,21 +1,26 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package quesito5;
 
 /**
+ * Escreva um algoritmo para ler o número total de eleitores de um município, o
+ * número de votos brancos, nulos e válidos. Calcular e escrever o percentual
+ * que cada um representa em relação ao total de eleitores.
  *
- * @author gleyson
+ *
+ * @author Gleyson Atanazio
  */
+import java.util.Scanner;
+
 public class Quesito5 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+
+        Scanner input = new Scanner(System.in);
+
+        int totalEleitores, vBrancos, vNulos, vValidos;
+        float pBrancos, pNulos, pValidos;
+        
+        System.out.println("Digite o Número de Votos Válidos: ");;
+        
     }
-    
+
 }
