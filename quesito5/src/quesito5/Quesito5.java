@@ -19,7 +19,7 @@ public class Quesito5 {
         int totalEleitores, vBrancos, vNulos, vValidos;
         float pBrancos, pNulos, pValidos;
         
-        System.out.println("Digite o Número de Votos Válidos: ");;
+        System.out.println("Digite o Número de Votos Válidos: ");
         
     }
 
