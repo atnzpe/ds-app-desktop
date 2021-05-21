@@ -18,10 +18,13 @@ public class Quesito5 {
 
         int totalEleitores, vBrancos, vNulos, vValidos;
         float pBrancos, pNulos, pValidos;
-        
+
         System.out.println("Digite o Número de Votos Válidos: ");
         vValidos = input.nextInt();
-        
+
+        System.out.println("Digite o Número de Votos Brancos: ");
+        vBrancos = input.nextInt();
+
     }
 
 }
