@@ -22,7 +22,7 @@ public class Quesito2Atualizado {
         System.out.println("Digite a temperatura em graus Celsius");
         celsius = input.nextFloat();
         fahrenheit = (9 * celsius + 160) / 5;
-        System.out.println("Temperatura em Fahrenheit: " + fahrenheit);
+        System.out.printf("Temperatura em Fahrenheit: %.2f%n", fahrenheit);
     }
 
 }

@@ -14,21 +14,18 @@ public class Quesito1 {
 
         Scanner input = new Scanner(System.in);
 
-        float salarioFixo;
-        float vendasMes;
-        double salarioFinal;
-        double comissao;
+        double salarioFinal, vendasMes, salarioFixo;
 
         System.out.println("Qual o valor do Salário Fixo? ");
-        salarioFixo = input.nextFloat();
+        salarioFixo = input.nextDouble();
 
-        System.out.print("Qual o valor das Vendas do Mês? ");
-        vendasMes = input.nextFloat();
+        System.out.println("Qual o valor das Vendas do Mês? ");
+        vendasMes = input.nextDouble();
 
-        comissao = vendasMes * 0.15;
-        salarioFinal = (comissao + salarioFixo);
+        salarioFinal = vendasMes * 0.15 + salarioFixo;
 
-        System.out.println("O salário fixo é de R$ " + salarioFixo + ", e o Salário Final é R$ " + salarioFinal);
+        System.out.printf("O salário fixo é de R$ %.2f, e o Salário Final é R$ %.2f%n", salarioFixo, salarioFinal);
+
     }
 
 }
