@@ -18,11 +18,11 @@ public class Quesito4 {
         base = input.nextFloat();
         System.out.println("Digite a altura: ");
         altura = input.nextFloat();
-        
+
         float area = base * altura;
-        
-        System.out.println(area+"m²");
-        
+
+        System.out.println(area + "m²");
+
     }
 
 }
