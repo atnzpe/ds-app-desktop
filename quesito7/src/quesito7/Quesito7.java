@@ -12,7 +12,7 @@ public class Quesito7 {
         System.out.println("Quantos litros de combustível gastou? ");
         double combustivel = input.nextDouble();
         double consumoMedio = distancia / combustivel;
-        System.out.printf("O consumo médio é de %.2f Km/l ", consumoMedio);
+        System.out.printf("O consumo médio é de %.2f Km/l. ", consumoMedio);
     }
 
 }
