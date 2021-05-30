@@ -1,6 +1,6 @@
 /*********************************************************
- * Ler 3 números fracionários do teclado e informar:     *
- * se o primeiro é maior do que a soma dos dois últimos; *
+ * Ler 3 números fracionários do teclado e informar se:  *
+ * O primeiro é maior do que a soma dos dois últimos;    *
  * Criado por Gleyson Atanazio em 30/05/2021             *
  *********************************************************
  */
