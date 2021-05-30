@@ -5,9 +5,9 @@
 
 2) Calcular a multa: Leia a velocidade de um carro e a velocidade máxima para a rua:
 
-\1. Informe 50 reais se estiver até 10km/h acima;
-\2. Informe 100 reais se estiver entre 11km/h a 30km/h acima;
-\3. Informe 300 reais se estiver acima de 31km/h acima;
+1. Informe 50 reais se estiver até 10km/h acima;
+2. Informe 100 reais se estiver entre 11km/h a 30km/h acima;
+3. Informe 300 reais se estiver acima de 31km/h acima;
 
 3) Ler 3 valores em qualquer ordem e escrever eles em ordem crescente;
 
@@ -21,15 +21,17 @@ O benefício no valor de R$ 600,00 será pago por três meses, para até duas pe
 
 Para ter acesso ao auxílio emergencial, a pessoa deve cumprir, ao mesmo tempo, os seguintes requisitos:
 
-\1. Maior de idade.
+1. Maior de idade.
 
-\2. Não ter emprego formal: destinado para trabalhadores autônomos com rendas informais, que não seja agente público, inclusive temporário e nem exercendo mandato eletivo.
+2. Não ter emprego formal: destinado para trabalhadores autônomos com rendas informais, que não seja agente público, inclusive temporário e nem exercendo mandato eletivo.
 
-\3. Não ser beneficiário: não receber benefício previdenciário ou assistencial, seguro-desemprego ou de outro programa de transferência de renda federal que não seja o Bolsa Família.
+3. Não ser beneficiário: não receber benefício previdenciário ou assistencial, seguro-desemprego ou de outro programa de transferência de renda federal que não seja o Bolsa Família.
 
-\4. Renda familiar: renda familiar mensal per capita (por pessoa) de até meio salário mínimo (R$ 550,00) ou renda familiar mensal total (tudo o que a família recebe) de até três salários mínimos (R$ 3.300,00).
+4. Renda familiar: renda familiar mensal per capita (por pessoa) de até meio salário mínimo (R$ 550,00) ou renda familiar mensal total (tudo o que a família recebe) de até três salários mínimos (R$ 3.300,00).
 
-\5. Estar desempregado ou exercer as seguintes atividades: exercer atividade na condição de microempreendedor individual (MEI) ou ser contribuinte individual ou facultativo do Regime Geral de Previdência Social (RGPS) ou ser trabalhador informal inscrito no Cadastro Único para Programas Sociais do Governo Federal (CadÚnico).
+5. Estar desempregado ou exercer as seguintes atividades: exercer atividade na condição de microempreendedor individual (MEI) ou ser contribuinte individual ou facultativo do Regime Geral de Previdência Social (RGPS) ou ser trabalhador informal inscrito no Cadastro Único para Programas Sociais do Governo Federal (CadÚnico).
+
+
 
 O código escrito no Java deve fornecer um questionário onde o usuário irá responder uma série de perguntas e no final ele deve receber uma mensagem informando: “**Parabéns! Você foi contemplado e receberá XXX.XX reais**”
 
